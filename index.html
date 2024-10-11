@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biz exch</title>
+</head>
+
+<body>
+    <form action="" class="my-form">
+        <div class="login-welcome-row">
+            <a href="#" title="logo">
+                <img src="https://www.svgrepo.com/show/535115/alien.svg" alt="logo" class="logo" height="60px">
+            </a>
+            <h1>Welcome &#x1F44F;</h1>
+            <p>Please enter Your details!</p>
+        </div>
+        <div class="input_wrapper">
+            <input type="email" id="email" name="email" class="input_field" placeholder="your email" required>
+            <label for="email" class="input_label">Email:</label>
+            
+        </div>
+        <div class="input_wrapper">
+          <input id="password" type="password" class="input_field" placeholder="Your password"
+          title="minimum 6 characters at least 1 Alphabet, 1 Number and 1 Symbol"
+          pattern="^(?=.*[A-Za-z])(?=. *\d)(?=.*[\W_]) [A-Za-z\d\W—]{6,}$" required>
+          <label for="password" class="input_label">Password</label>
+          <!-- svg -->
+        </div>
+        <div>
+            <button type="submit" class="my-form_button">Login</button>
+        </div>
+        <div class="social-row">
+         <a href="#" title="Use google">Login with Google</a>
+        </div>
+    </form>
+</body>
+
+</html>
